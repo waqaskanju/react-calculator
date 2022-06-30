@@ -1,6 +1,8 @@
-function App() {
-  return (
-    <div className="App">
+import React from 'react';
+
+class Calculator extends React.PureComponent {
+  render() {
+    return (
       <div className="calculator">
         <div className="display">
           <span>(0)</span>
@@ -36,7 +38,8 @@ function App() {
           <button type="button" className="orange">=</button>
         </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
-export default App;
+
+export default Calculator;
