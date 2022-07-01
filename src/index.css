@@ -16,7 +16,7 @@ button {
   width: 100px;
 }
 
-.display {
+#calcDisplay {
   text-align: right;
   background-color: #848693;
   height: 30px;
