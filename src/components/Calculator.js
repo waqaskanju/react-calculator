@@ -22,6 +22,12 @@ const Calculator = () => {
     } else {
       result.innerHTML = '0';
     }
+
+    if (!total && !next && !operation) {
+      result.innerHTML = '0';
+    } else {
+      result.innerHTML = next || total;
+    }
   };
 
   return (
@@ -29,15 +35,15 @@ const Calculator = () => {
       <div className="calc-display" id="calcDisplay"><span>0</span></div>
       <div className="top-options">
         <button type="button" onClick={btnClick} value="AC">AC</button>
-        <button type="button" onClick={btnClick} value="x/-">+/-</button>
-        <button type="button" onClick={btnClick}>%</button>
-        <button type="button" onClick={btnClick} value="/" className="orange">/</button>
+        <button type="button" onClick={btnClick} value="+/-">+/-</button>
+        <button type="button" onClick={btnClick} value="%">%</button>
+        <button type="button" onClick={btnClick} value="÷" className="orange">÷</button>
       </div>
       <div className="second-row">
         <button type="button" onClick={btnClick} value="7">7 </button>
         <button type="button" onClick={btnClick} value="8">8</button>
         <button type="button" onClick={btnClick} value="9">9</button>
-        <button type="button" onClick={btnClick} value="*" className="orange">*</button>
+        <button type="button" onClick={btnClick} value="x" className="orange">x</button>
       </div>
       <div className="third-row">
         <button type="button" onClick={btnClick} value="4">4 </button>
