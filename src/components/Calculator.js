@@ -25,6 +25,14 @@ class Calculator extends React.Component {
     } else {
       result.innerHTML = '0';
     }
+
+    if (!total && !next && !operation) {
+      result.innerHTML = '0';
+    }
+
+    if (next || total) {
+      result.innerHTML = next || total;
+    }
   };
 
   render() {
@@ -37,14 +45,14 @@ class Calculator extends React.Component {
           <button type="button" onClick={this.btnClick} value="AC">
             AC
           </button>
-          <button type="button" onClick={this.btnClick} value="x/-">
+          <button type="button" onClick={this.btnClick} value="+/-">
             +/-
           </button>
-          <button type="button" onClick={this.btnClick}>
+          <button type="button" onClick={this.btnClick} value="%">
             %
           </button>
-          <button type="button" onClick={this.btnClick} value="/" className="orange">
-            /
+          <button type="button" onClick={this.btnClick} value="÷" className="orange">
+            ÷
           </button>
         </div>
         <div className="second-row">
@@ -58,14 +66,13 @@ class Calculator extends React.Component {
           <button type="button" onClick={this.btnClick} value="9">
             9
           </button>
-          <button type="button" onClick={this.btnClick} value="*" className="orange">
-            *
+          <button type="button" onClick={this.btnClick} value="x" className="orange">
+            x
           </button>
         </div>
         <div className="third-row">
           <button type="button" onClick={this.btnClick} value="4">
             4
-            {' '}
           </button>
           <button type="button" onClick={this.btnClick} value="5">
             5
@@ -80,7 +87,6 @@ class Calculator extends React.Component {
         <div className="first-row">
           <button type="button" onClick={this.btnClick} value="1">
             1
-            {' '}
           </button>
           <button type="button" onClick={this.btnClick} value="2">
             2
@@ -100,7 +106,6 @@ class Calculator extends React.Component {
             className="flex-child"
           >
             0
-            {' '}
           </button>
           <button type="button" onClick={this.btnClick} value=".">
             .
