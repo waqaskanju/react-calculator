@@ -2,7 +2,7 @@
 button {
   width: 50px;
   height: 30px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .orange {
@@ -24,9 +24,9 @@ button {
   color: white;
 }
 
-.calculator {
+/* .calculator {
   max-width: 200px;
-}
+} */
 
 .App {
   margin: 20px auto;
@@ -58,7 +58,7 @@ body {
 }
 
 nav a {
-  color: white;
+  color: blue;
 }
 
 nav {
@@ -66,6 +66,19 @@ nav {
   font-size: larger;
 }
 
-.intro {
+/* .intro {
   margin-left: 100px;
+} */
+
+.top-container {
+  display: flex;
+  background-color: yellow;
+}
+
+.m-r {
+  margin-right: 50%;
+}
+
+.calc {
+  margin-top: 5rem;
 }

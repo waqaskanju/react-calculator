@@ -38,8 +38,8 @@ class Calculator extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="intro">
-          <h3> Check our Calculator.  </h3>
+        <div className="">
+          <h1> Check our Calculator.  </h1>
           <p> It is created in Tutorial series of learning React.</p>
         </div>
         <div className="calc">
