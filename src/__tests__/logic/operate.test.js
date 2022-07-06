@@ -14,9 +14,9 @@ describe('test our operate function', () => {
   });
   test('divide 10 by 0   should be Can not divide by zero', () => {
     const result = operate(10, 0, '÷');
-    expect(result).toContain("Can't divide by 0.");
+    expect(result).toContain('Can not divide by 0.');
   });
   test('multipy 10 by 5 should be 50', () => {
-    expect(operate(10, 5, '*')).toBe('50');
+    expect(operate(10, 5, 'x')).toBe('50');
   });
 });
