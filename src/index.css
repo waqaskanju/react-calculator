@@ -2,10 +2,11 @@
 button {
   width: 50px;
   height: 30px;
+  padding: 10px;
 }
 
 .orange {
-  background-color: orange;
+  background-color: silver;
 }
 
 .flex {
@@ -29,4 +30,38 @@ button {
 
 .App {
   margin: 20px auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1 {
+  color: blue;
+}
+
+h3 {
+  color: orange;
+}
+
+body {
+  background-image: url(mathbg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: larger;
+  color: green;
+}
+
+.go-down {
+  margin-bottom: 100px;
+}
+
+nav a {
+  color: white;
+}
+
+nav {
+  margin-left: 40px;
+  font-size: larger;
 }
