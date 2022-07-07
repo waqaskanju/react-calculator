@@ -84,13 +84,21 @@ It can run on any browser.
 Mobile Screen size below < 786
 Desktop Screen Size above >786
 
-## Author
+## Authors
 
 👤 **Waqas Ahmad**
 
 - GitHub: [@githubhandle](https://github.com/waqas)
 - Twitter: [@twitterhandle](https://twitter.com/waqas)
 - LinkedIn: [@LinkedIn](https://linkedin.com/in/waqas)
+
+
+👤 **Worash Abocherugn**
+
+- GitHub: [@githubhandle](https://github.com/worashf)
+- Twitter: [@twitterhandle](https://twitter.com/WorashAboche)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/worash-abocherugn-a02219154/)
+
 
 ## 🤝 Contributing
 
