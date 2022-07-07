@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import Navigation from '../../components/Navigation';
+import Quote from '../../routes/Quote';
+import '@testing-library/jest-dom/extend-expect';
 
 test('render learn react link', () => {
-  render(<Navigation />);
-  const linkElement = screen.getByRole(/Quote/);
+  render(<Quote />);
+  const linkElement = screen.getByRole('heading');
   expect(linkElement).toBeInTheDocument();
 });
