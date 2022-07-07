@@ -7,7 +7,7 @@ export default function Quote() {
         reason, and the desire for aesthetic perfection. Its basic elements are logic and intuition,
         analysis and construction, generality and individuality.
       </p>
-      <h3>— Richard Courant, German-American mathematician</h3>
+      <p>— Richard Courant, German-American mathematician</p>
     </div>
   );
 }
