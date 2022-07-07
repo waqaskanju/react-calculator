@@ -1,0 +1,84 @@
+
+button {
+  width: 50px;
+  height: 30px;
+  padding: 20px;
+}
+
+.orange {
+  background-color: silver;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-child {
+  width: 100px;
+}
+
+#calcDisplay {
+  text-align: right;
+  background-color: #848693;
+  height: 30px;
+  color: white;
+}
+
+/* .calculator {
+  max-width: 200px;
+} */
+
+.App {
+  margin: 20px auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1 {
+  color: blue;
+}
+
+h3 {
+  color: orange;
+}
+
+body {
+  background-image: url(mathbg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: larger;
+  color: green;
+}
+
+.go-down {
+  margin-bottom: 100px;
+}
+
+nav a {
+  color: blue;
+}
+
+nav {
+  margin-left: 40px;
+  font-size: larger;
+}
+
+/* .intro {
+  margin-left: 100px;
+} */
+
+.top-container {
+  display: flex;
+  background-color: yellow;
+}
+
+.m-r {
+  margin-right: 50%;
+}
+
+.calc {
+  margin-top: 5rem;
+}
