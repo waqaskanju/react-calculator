@@ -4,6 +4,12 @@ import '@testing-library/jest-dom/extend-expect';
 
 test('render learn react link', () => {
   render(<Quote />);
-  const linkElement = screen.getByRole('heading');
+  const linkElement = screen.getByText(/This is Quote Page/i);
   expect(linkElement).toBeInTheDocument();
+});
+
+test('There should be a heading in the quote page', () => {
+  render(<Quote />);
+  const headingElement = screen.getByRole('heading');
+  expect(headingElement).toBeInTheDocument();
 });
